@@ -5,6 +5,7 @@ public class EnemyAI: MonoBehaviour
 {
     private GameObject player = null;
     public NavMeshAgent agent;
+    public EnemySpawner spawner;
     private void Start()
     {
         if (player == null) { 
